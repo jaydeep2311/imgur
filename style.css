@@ -1,0 +1,159 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.hero-section {
+  height: 60vh;
+  width: 100%;
+  background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+}
+.navbar {
+  display: flex;
+}
+.Button {
+  text-align: center;
+  height: 25px;
+  display: inline-block;
+  padding: 5px 11px 6px 6px;
+  text-transform: none;
+  user-select: none;
+  touch-action: manipulation;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  width: auto;
+  background-color: #1bb76e;
+  box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+  color: #fff;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.upload {
+  min-width: auto;
+  margin: auto 20px;
+  position: relative;
+}
+.Button img {
+  padding: 0;
+  font-size: inherit;
+  position: inherit;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbox-1 {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.searchbar {
+  margin-top: 15px;
+}
+.Searchbar-textInput {
+  background: hsla(0, 0%, 100%, 0.25);
+  border: 1px solid transparent;
+  position: absolute;
+  height: 30px;
+
+  border-radius: 3px;
+  left: 30%;
+  outline: 0 none;
+  width: 500px;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #fff;
+  text-shadow: inherit;
+  -webkit-text-fill-color: inherit;
+}
+.EmeraldButton {
+  background: #6432f9;
+  box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+  padding: 0px 10px 10px 9px;
+  overflow: hidden;
+  margin: auto 0;
+  line-height: 35px;
+  text-decoration: none;
+}
+.Navbar-signin {
+  margin: auto 24px auto 8px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 14px 15px rgb(27 28 30 / 31%);
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.navbox-2 {
+  margin-left: 50%;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.Navbar-signup {
+  min-width: 108px;
+  padding-top: 9px;
+  justify-content: space-between;
+}
+.Message {
+  font-size: 24px;
+  font-family: Proxima Nova ExtraBold, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 0.6px;
+  color: #aed8ea;
+  text-align: center;
+  margin-top: 34px;
+  min-height: 34px;
+  position: relative;
+}
+.tags-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.tags-box {
+  height: 130px;
+  width: 110px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 6px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.box-img {
+  width: 100%;
+}
+.titlebox {
+  background: #01b96b;
+  height: 72px;
+  text-align: center;
+}
+.titlebox2 {
+  background: rgb(228, 125, 87);
+  height: 72px;
+  text-align: center;
+}
+.title {
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.4px;
+  color: #fff;
+  text-transform: capitalize;
+  word-break: break-word;
+  font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.posts {
+  margin-top: 4px;
+  font-size: 11px;
+  line-height: 1.46;
+  letter-spacing: 0.4px;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
